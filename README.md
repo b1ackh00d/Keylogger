@@ -1,8 +1,10 @@
 # Keylogger
 
-## Getting Started
+### Getting Started
 
-Keyloggers are often used as a spyware tool by cybercriminals to steal personally identifiable information (PII), login credentials and sensitive enterprise data. Keylogger recorders may also be used by employers to observe employees' computer activities, parents to supervise their children's internet usage, users to track possible unauthorized activity on their devices or law enforcement agencies to analyze incidents involving computer use. 
+*Keyloggers are often used as a spyware tool by cybercriminals to steal personally identifiable information, login credentials and sensitive enterprise data.* 
+
+This is a simple Python file which is going to capture Keystrokes from the Victim's Computer. PyInstaller bundles a Python application and all its dependencies into a single package. The user can run the packaged app without installing a Python interpreter or any modules in the system. This normaly acts as an other executable applications and once we open it by giving permission as "run" rather than "Don't run" KABOOM!. At each particular interval you'll get the targeted machine's key strokes via email.
 
 ### Prerequisites
 
@@ -14,8 +16,6 @@ wine-4.0
 Modules : pyinstaller, pynput, smtplib
 ```
 ### Pyinstaller
-
-PyInstaller bundles a Python application and all its dependencies into a single package. The user can run the packaged app without installing a Python interpreter or any modules.
 ```
 pip install PyInstaller
 ```
